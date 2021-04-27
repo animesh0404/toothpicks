@@ -20,7 +20,7 @@ class Toothpick {
   
     show() { 
       stroke(this.color);
-      strokeWeight(2);
+      strokeWeight(4);
       if(this.newPick) {
         stroke(this.color);
       }
